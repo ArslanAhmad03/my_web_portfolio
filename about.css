@@ -1,0 +1,41 @@
+
+/* About */
+
+.about-section {
+    padding: 4rem;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 4rem;
+    margin: 30px 4rem 6rem;
+}
+
+.about-image {
+    width: 300px;
+    height: 360px;
+    background-color: #222222;
+    border-radius: 6px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    background-image: url('https://res.cloudinary.com/dbaszvjvp/image/upload/v1757963938/profileImage_amvnia.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+    flex-grow: 1;
+    color: #ccc;
+}
+
+.about-text .btn-filled {
+    margin-top: 30px;
+    display: inline-block;
+}
