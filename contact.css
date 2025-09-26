@@ -67,6 +67,13 @@
 }
 
 .toast-message {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #059669;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     z-index: 1000;
     position: fixed;
@@ -74,6 +81,17 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50px);
     opacity: 0;
+}
+
+.toast-content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.toast-icon {
+    width: 1.0rem;
+    height: 1.0rem;
+    margin-right: 0.5rem;
 }
 
 .show-toast {
